@@ -66,7 +66,7 @@ https://www.baidu.com/com.zip
 思路准备好接下来就是撸代码了,以检测每层目录下面的git/svn泄漏为例：
 
 
-![-w1226](media/15776263631401/15776325980609.jpg)
+![-w1226](https://github.com/TheKingOfDuck/leakScanInBrowser/blob/master/icons/1.jpg)
 
 ```
 line 19-33 发包函数
@@ -94,7 +94,7 @@ about:debugging#/runtime/this-firefox
 
 临时载入附加组件
 
-![E39E98BF-1910-4229-9F28-9CCE08455E](media/15776263631401/E39E98BF-1910-4229-9F28-9CCE08455EC3.png)
+![E39E98BF-1910-4229-9F28-9CCE08455E](https://github.com/TheKingOfDuck/leakScanInBrowser/blob/master/icons/2.png)
 
 chrome安装：
 
@@ -104,9 +104,9 @@ chrome://extensions/
 ```
 加载已解压的扩展程序
 
-![12F0A52E-A6DE-4FE9-BA57-CBF8040B80BE](media/15776263631401/12F0A52E-A6DE-4FE9-BA57-CBF8040B80BE.png)
+![12F0A52E-A6DE-4FE9-BA57-CBF8040B80BE](https://github.com/TheKingOfDuck/leakScanInBrowser/blob/master/icons/3.png)
 
 
 效果图：
 
-![92DCFFD9-62A7-4D34-BBFB-419A2F940158](media/15776263631401/92DCFFD9-62A7-4D34-BBFB-419A2F940158.png)
+![92DCFFD9-62A7-4D34-BBFB-419A2F940158](https://github.com/TheKingOfDuck/leakScanInBrowser/blob/master/icons/4.png)
